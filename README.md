@@ -6,7 +6,7 @@ El siguiente repositorio es un intento de resolver el reto 1 del hackatón "Hack
 
 ## Contenido.
 
-# [SURYA IBM/NASA](https://github.com/user-attachments/assets/baba6234-7c8d-4424-a647-89d4264875c7)
+# [SURYA IBM/NASA](https://github.com/Additrejo/SolarEx/tree/main/Surya)
 <img width="890" height="332" alt="image" src="https://github.com/user-attachments/assets/fdaca304-3564-49f2-bde5-56c7ab955e32" />
 
 El primer modelo fundacional de IA de heliofísica fue entrenado con datos de observación solar de alta resolución. Ofrece insights sobre la superficie dinámica del Sol para ayudar a planificar el clima solar que puede alterar tanto la tecnología en la Tierra como en el espacio.
@@ -32,5 +32,5 @@ Finalmente, el proyecto utiliza Machine Learning (específicamente, Regresión L
 
 ## Autores ✒️
 
-* **IBM | NASA** - [SURYA IBM/NASA](https://github.com/user-attachments/assets/baba6234-7c8d-4424-a647-89d4264875c7)
+* **IBM | NASA** - [SURYA IBM/NASA](https://research.ibm.com/blog/surya-heliophysics-ai-model-sun)
 * **Addi Trejo** - *Desarrollador de proyecto* - [additrejo](https://github.com/additrejo)
