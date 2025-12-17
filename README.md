@@ -1,5 +1,12 @@
 # SolarEx - Análisis de imágenes del Sol para identificar y predecir llamaradas solares.
 
+<!--------------------- PROYECTO -------------------------->
+
+![Proyecto](https://img.shields.io/badge/Proyecto-SolarEx%20-brown)
+
+<!--------------------- ETIQUETAS DE ÁREA DEL PROYECTO -------------------------->
+[![Electrónica](https://img.shields.io/badge/ÁREA-INTELIGENCIA_ARTIFICIAL-007EC6)](https://github.com/search?q=topic:ad-ia) [![Software](https://img.shields.io/badge/SOFTWARE-E05D44)](https://github.com/search?q=topic:at-software) [![Área](https://img.shields.io/badge/VISIÓN_ARTIFICIAL-701570)](https://github.com/search?q=topic:at-visioncomputadora) 
+
 El siguiente repositorio es un intento de resolver el reto 1 del hackatón "HackICN 2025".
 
 <img width="669" height="836" alt="image" src="https://github.com/user-attachments/assets/3a4aa3a6-2f86-4253-b44a-e68f6fe959bf" />
