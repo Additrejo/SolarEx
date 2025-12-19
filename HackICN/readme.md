@@ -133,6 +133,11 @@ Contornos: Con cv2.findContours, puedes identificar y aislar las formas de esas 
 Detección de Blobs: La función cv2.SimpleBlobDetector es excelente para encontrar "manchas" o "gotas" en una imagen, lo cual se ajusta muy bien a la forma de una llamarada.
 
 
+## El banco de imagenes.
+
+Usaremos imagenes proporcionadas por [NASA - Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/search/?keywords=Solar%20Dynamics%20Observatory)
+
+
 ## 1. Abrir imagen con Spyder (Código ejemplo).
 Abriremos una imagen desde Spyder.  
 Script: [Abrir imagen con spyder](https://github.com/Additrejo/HackICN/blob/main/HackICN/Spyder/abrir_imagen.py)
@@ -219,6 +224,12 @@ Base para el Seguimiento: Si analizaras una secuencia de imágenes (un video), p
 Dato para Machine Learning: Has convertido un evento visual en datos numéricos estructurados (área, posición (x, y)). Este es el tipo de información que se utiliza para entrenar modelos de machine learning que pueden clasificar la intensidad de la llamarada o predecir futuras erupciones.
 
 ---
+
+## Origen de la imagen.
+
+Usaremos imagenes proporcionadas por [NASA - Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/search/?keywords=Solar%20Dynamics%20Observatory)
+
+En este caso utilizaremos un video del Solar Dynamics Observatory del sitío [SpaceWeatherLive - NASA SDO](https://www.spaceweatherlive.com/es/actividad-solar/imagenes-solares/sdo.html)
 
 - ## Obentención de imagenes de un video.
 1. Para extraer los fotogramas de un video es necesario descargar el video (preferentemente en formato .mp4).  
