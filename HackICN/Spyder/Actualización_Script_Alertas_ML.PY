@@ -60,7 +60,7 @@ UMBRAL_ALERTA_ML = 2000
 fotogramas = []
 areas_detectadas = []
 if not os.path.isdir(ruta_carpeta):
-    print(f"❌ ERROR: La carpeta especificada no existe: {ruta_carpeta}")
+    print(f" ERROR: La carpeta especificada no existe: {ruta_carpeta}")
 else:
     print(f"Iniciando Fase 1: Recolección de datos...")
     lista_archivos = sorted(os.listdir(ruta_carpeta))
@@ -70,7 +70,7 @@ else:
             area_actual = analizar_imagen(ruta_completa)
             fotogramas.append(contador_fotograma)
             areas_detectadas.append(area_actual)
-    print(f"✅ Recolección completa. Se procesaron {len(fotogramas)} fotogramas.")
+    print(f" Recolección completa. Se procesaron {len(fotogramas)} fotogramas.")
 
     if fotogramas:
         series_areas = pd.Series(areas_detectadas)
@@ -93,7 +93,7 @@ else:
             modelo.fit(X_train, y_train)
             predicciones = modelo.predict(X_test)
             error = np.sqrt(mean_squared_error(y_test, predicciones))
-            print(f"\n✅ ¡Modelo entrenado! Error (RMSE): {error:.2f} píxeles.")
+            print(f"\n ¡Modelo entrenado! Error (RMSE): {error:.2f} píxeles.")
             
             # --- ¡NUEVO! FASE 4: SIMULACIÓN DE ALERTA PREDICTIVA ---
             print(f"\nIniciando Fase 4: Buscando alertas predictivas (Umbral > {UMBRAL_ALERTA_ML} px)...")
@@ -109,7 +109,7 @@ else:
                 indice_tiempo = limite_split + TAMANO_VENTANA_ML + i 
                 
                 if prediccion_actual > UMBRAL_ALERTA_ML and not alerta_ml_activa:
-                    print(f"\n🚨 ¡¡ALERTA PREDICTIVA DE ML!! 🚨")
+                    print(f"\n ¡¡ALERTA PREDICTIVA DE ML!! 🚨")
                     print(f"   En el fotograma: Nº {indice_tiempo}")
                     print(f"   ¡El modelo predijo un área de {prediccion_actual:.0f} píxeles!")
                     

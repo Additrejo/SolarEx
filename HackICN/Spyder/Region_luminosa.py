@@ -21,11 +21,11 @@ try:
 
     # 2. Comprobar si la imagen se cargó correctamente
     if img is None:
-        print(f"❌ ERROR: No se pudo cargar la imagen.")
+        print(f" ERROR: No se pudo cargar la imagen.")
         print(f"Verifica que la ruta es correcta y el archivo existe: \n{ruta_de_tu_imagen}")
     else:
         # Si la imagen se cargó, continuamos con el procesamiento
-        print("✅ ¡Imagen cargada con éxito!")
+        print(" ¡Imagen cargada con éxito!")
         
         # Guardar una copia a color para dibujar sobre ella
         output_img = img.copy()

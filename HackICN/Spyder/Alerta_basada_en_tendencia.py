@@ -41,7 +41,7 @@ fotogramas = []
 areas_detectadas = [] # Lista para los datos crudos (ruidosos)
 
 if not os.path.isdir(ruta_carpeta):
-    print(f"❌ ERROR: La carpeta especificada no existe: {ruta_carpeta}")
+    print(f" ERROR: La carpeta especificada no existe: {ruta_carpeta}")
 else:
     print(f"Iniciando Fase 1: Recolección de datos en: {ruta_carpeta}\n")
     lista_archivos = sorted(os.listdir(ruta_carpeta))
@@ -54,7 +54,7 @@ else:
             fotogramas.append(contador_fotograma)
             areas_detectadas.append(area_actual)
             
-    print(f"✅ Recolección completa. Se procesaron {len(fotogramas)} fotogramas.")
+    print(f" Recolección completa. Se procesaron {len(fotogramas)} fotogramas.")
 
     # --- 2. FASE DE ANÁLISIS Y ALERTA (SOBRE DATOS SUAVIZADOS) ---
     if fotogramas:
@@ -79,7 +79,7 @@ else:
                 area_actual_suavizada > (area_anterior_suavizada * umbral_crecimiento) and 
                 not alerta_activa):
                 
-                print(f"\n🚨 ¡¡ALERTA DE LLAMARADA ROBUSTA!! 🚨")
+                print(f"\n ¡¡ALERTA DE LLAMARADA ROBUSTA!! ")
                 print(f"   En el fotograma: Nº {i}")
                 print(f"   Crecimiento de tendencia detectado: de {area_anterior_suavizada:.0f} a {area_actual_suavizada:.0f} (promedio).")
                 

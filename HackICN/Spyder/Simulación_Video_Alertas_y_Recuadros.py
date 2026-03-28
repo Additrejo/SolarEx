@@ -110,7 +110,7 @@ while True:
     # 2f. Lógica de Alerta
     if prediccion > UMBRAL_ALERTA_ML and not alerta_activa:
         alerta_activa = True
-        print(f"🚨 ¡¡ALERTA PREDICTIVA!! El modelo predice un área de {prediccion:.0f} píxeles. 🚨")
+        print(f" ¡¡ALERTA PREDICTIVA!! El modelo predice un área de {prediccion:.0f} píxeles. 🚨")
     elif prediccion < UMBRAL_ALERTA_ML and alerta_activa:
         alerta_activa = False # Resetear la alerta
 

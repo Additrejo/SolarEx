@@ -266,14 +266,14 @@ print("Cargando modelo de IA 'predictor_llamaradas.pkl'...")
 try:
     modelo = joblib.load('predictor_llamaradas.pkl')
 except FileNotFoundError:
-    print("❌ ERROR: No se encontró el archivo 'predictor_llamaradas.pkl'.")
+    print(" ERROR: No se encontró el archivo 'predictor_llamaradas.pkl'.")
     exit()
 
 ruta_video_nuevo = r"C:/Users/addi_/Downloads/HackICN/Solarflare/SFVideo/SFVideo.mp4" # ¡MODIFICA ESTO!
 video = cv2.VideoCapture(ruta_video_nuevo)
 
 if not video.isOpened():
-    print(f"❌ ERROR: No se pudo abrir el video en: {ruta_video_nuevo}")
+    print(f" ERROR: No se pudo abrir el video en: {ruta_video_nuevo}")
     exit()
 
 ancho = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))

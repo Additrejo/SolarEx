@@ -19,9 +19,9 @@ try:
     # 1. Cargar la imagen
     img = cv2.imread(ruta_de_tu_imagen)
     if img is None:
-        print(f"❌ ERROR: No se pudo cargar la imagen. Verifica la ruta:\n{ruta_de_tu_imagen}")
+        print(f" ERROR: No se pudo cargar la imagen. Verifica la ruta:\n{ruta_de_tu_imagen}")
     else:
-        print("✅ ¡Imagen cargada con éxito!")
+        print(" ¡Imagen cargada con éxito!")
         output_img = img.copy()
         
         # 2. Preprocesamiento

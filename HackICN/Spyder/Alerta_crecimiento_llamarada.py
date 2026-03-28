@@ -73,7 +73,7 @@ else:
                 area_actual > (area_anterior * umbral_crecimiento) and 
                 not alerta_activa):
                 
-                print(f"\n🚨 ¡¡ALERTA DE LLAMARADA!! 🚨")
+                print(f"\n ¡¡ALERTA DE LLAMARADA!! ")
                 print(f"   En el fotograma: {nombre_archivo} (Nº {contador_fotograma})")
                 print(f"   Crecimiento rápido detectado: de {int(area_anterior)} a {int(area_actual)} píxeles.")
                 
