@@ -1,5 +1,6 @@
 # [SolarEx](https://github.com/Additrejo/SolarEx/tree/main/HackICN)
-![Solarflex](https://github.com/user-attachments/assets/baba6234-7c8d-4424-a647-89d4264875c7)
+![portada_gif](https://github.com/user-attachments/assets/4b585609-f796-4742-885e-f2e9d350e823)
+
 
 Mi primer modelo predictivo (ML) para la identificación de llamaradas solares.
 El modelo se basa en la resolución de los puntos solicitados en el reto 1 ddel hackatón "HackICN 2025".
@@ -624,8 +625,7 @@ Este script es la culminación de todo. Hará lo siguiente:
 7. Imprimirá "ALERTA" y lo dibujará en la pantalla si la predicción supera el umbral.
 
 Ejecutar el siguiente script: [Simulación Video (Alertas y Recuadros)](https://github.com/Additrejo/HackICN/blob/main/HackICN/Spyder/Simulaci%C3%B3n_Video_Alertas_y_Recuadros.py)   
-
-<img width="1213" height="710" alt="image" src="https://github.com/user-attachments/assets/005f9e95-9085-4b09-a9b4-9db19a7742a5" />  
+![portada_gif](https://github.com/user-attachments/assets/4b585609-f796-4742-885e-f2e9d350e823)
 
 
 ## Simulación + gráfica 
