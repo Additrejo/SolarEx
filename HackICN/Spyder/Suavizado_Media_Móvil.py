@@ -68,7 +68,7 @@ else:
                 area_actual > (area_anterior * umbral_crecimiento) and 
                 not alerta_activa):
                 
-                print(f"\n🚨 ¡¡ALERTA DE LLAMARADA!! 🚨 -> Fotograma: {nombre_archivo}")
+                print(f"\n ¡¡ALERTA DE LLAMARADA!!  -> Fotograma: {nombre_archivo}")
                 alerta_activa = True
                 puntos_alerta_x.append(contador_fotograma)
                 puntos_alerta_y.append(area_actual)
